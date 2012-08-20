@@ -8,4 +8,14 @@ class utility::darwin {
     ensure   => present,
     provider => homebrew
   }
+
+  package { "tree":
+    ensure   => present,
+    provider => homebrew
+  }
+
+  package { "ctags":
+    ensure   => present,
+    provider => homebrew
+  }
 }
