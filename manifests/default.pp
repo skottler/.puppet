@@ -5,4 +5,5 @@ node default {
   include mongodb
   include sshfs
   include utility
+  include zsh
 }
